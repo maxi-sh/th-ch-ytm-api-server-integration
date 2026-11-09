@@ -1,0 +1,159 @@
+{
+	"Name": "th-ch ytm api server integration",
+	"Version": "0.0.0.1",
+	"Author": "maxi.sh",
+	"Actions": [
+		{
+			"Name": "Toggle Play/Pause",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.toggle-play",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/toggle-play.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-play/play",
+					"Title": "Play"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Like/Dislike",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.toggle-like",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/toggle-like.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-like/like",
+					"Title": "Like"
+				}
+			]
+		},
+		{
+			"Name": "Repeat State",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.repeat-state",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/repeat-state.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/repeat-state/repeatOff",
+					"Title": "Off"
+				}
+			]
+		},
+		{
+			"Name": "Shuffle State",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.shuffle",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/shuffle.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/shuffle/shuffleOff",
+					"Title": "Off"
+				}
+			]
+		},
+		{
+			"Name": "Next Song",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.next",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/next.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/next/nextf0",
+					"Title": "Next song"
+				}
+			]
+		},
+		{
+			"Name": "Previous Song",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.previous",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/previous.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/previous/prevf0",
+					"Title": "Previous song"
+				}
+			]
+		},
+		{
+			"Name": "Thumbnail",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.thumbnail",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/thumbnail.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-play/play",
+					"Title": "-"
+				}
+			]
+		},
+		{
+			"Name": "Volume",
+			"UUID": "com.maxish.th-ch-ytm-api-server-integration.volume",
+			"Icon": "",
+			"Tooltip": "This is painful.",
+			"PropertyInspectorPath": "ui/volume.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-play/play",
+					"Title": "-"
+				}
+			]
+		}
+	],
+	"Category": "th-ch ytm api server integration",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "someone had to do it. jank warning",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "6.9"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.maxish.th-ch-ytm-api-server-integration"
+}

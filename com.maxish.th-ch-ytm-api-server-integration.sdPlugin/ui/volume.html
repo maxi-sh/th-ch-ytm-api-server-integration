@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Volume</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+</head>
+<body>
+   <sdpi-item label="State">
+        <sdpi-select setting="state" placeholder="Please select">
+        <option value="up">Increase Volume</option>
+        <option value="down">Decrease Volume</option>
+        <option value="mute">Toggle Mute</option>
+        </sdpi-select>
+    </sdpi-item>
+    <sdpi-item label="Increment">
+    <sdpi-textfield
+        setting="increment"
+        pattern="^\d{1,2}$"
+        placeholder="..."
+        required>
+    </sdpi-textfield>
+</html>
