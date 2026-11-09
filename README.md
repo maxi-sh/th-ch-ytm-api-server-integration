@@ -8,4 +8,4 @@ To view a copy of this license, visit http://creativecommons.org or see the `LIC
 
 
 ## Attribution
-If you remix, transform, or build upon this plugin, please credit.
+If you remix, transform, or build upon this plugin, please provide appropriate credit.
